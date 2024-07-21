@@ -1,5 +1,36 @@
 Diabetes Prediction using ML modelling
+Objective:
+The objective of this project is to develop a machine learning model that can predict the likelihood of an individual developing diabetes based on their 
+health metrics and lifestyle factors. The goal is to create a robust and accurate model that can assist healthcare professionals in early diagnosis and
+prevention strategies.
 The model uses several medical information such as the person's BMI, blood glucose level, and insulin level to make a prediction.
+
+Key Components:
+
+1] Data Collection:
+Gather and preprocess a dataset containing various health metrics such as age, BMI, blood pressure, glucose levels, and family history of diabetes. 
+The dataset may be sourced from publicly available repositories like the Pima Indians Diabetes dataset or other relevant healthcare datasets.
+
+2]Data Preprocessing:
+Clean the data by handling missing values, encoding categorical variables, and normalizing numerical features.
+Perform exploratory data analysis (EDA) to understand the distribution of the data and identify any patterns or correlations.
+
+3]Feature Selection:
+Select the most relevant features that contribute to diabetes risk. Techniques such as correlation analysis, feature importance from tree-based models,
+or dimensionality reduction methods may be used.
+
+4]Model Development:
+Train multiple machine learning models including logistic regression, decision trees, random forests, and support vector machines (SVM) to predict diabetes risk.
+Utilize cross-validation to evaluate model performance and prevent overfitting.
+
+5]Model Evaluation:
+Assess the performance of the models using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
+Compare the performance of different models to select the best one for predicting diabetes risk.
+
+6]Deployment:
+Develop a user-friendly interface where users can input their health metrics to receive a diabetes risk prediction
+
+
 # Clone the repository
 git clone https://github.com/Shreyaaa28/Diabetes-Prediction-ML-model.git
 
