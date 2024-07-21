@@ -1,0 +1,9 @@
+Diabetes Prediction using ML modelling
+# Clone the repository
+git clone https://github.com/Shreyaaa28/Diabetes-Prediction-ML-model.git
+
+# Navigate to the project directory
+cd Diabetes-Prediction-ML-model
+
+# Install dependencies
+npm install
